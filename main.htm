@@ -193,26 +193,47 @@ document.write(str);
  </div>
      </div>
        
- <div style="width:1000px; margin:0 auto; background:url(images/caix1.gif) no-repeat bottom;">
- <div class="focus"></div>
-  </div>
+ <!--图片切换开始-->
+            <div style="width:1000px; margin:0 auto; background:url(images/caix1.gif) no-repeat bottom;">
+                <div class="focus"></div>
+            </div>
+   <!--图片切换结束-->
  
    <div id="maincon">
     <div style="padding:39px 0 30px 0px">
-       <div class="fl" style="width:420px; margin:0 10px 0px 18px">
+       <div class="fl" style="width:450px; margin:0 10px 0px 18px">
          <div class="mod">
       <div class="tt">
        <ul id="tabmenu1" class="tabmenu">
-         <li class="hover"><span>[标题11]</span></li>
-         <li class="tabmore"><span><a href="">[更多按钮11]</a></span></li>
+         <li class="hover" onMouseMove="tab(1,0)"><span>[标题31]</span></li>
+         <li onMouseMove="tab(1,1)"><span>[标题32]</span></li>
        </ul>
+       <div id="tabmore1" class="tabmore">
+        <span class="more" style="display:block;">[更多按钮31]</span>
+        <span class="more">[更多按钮32]</span>
+       </div>
       </div>
       <div class="con">
        <ul id="tablist1" class="tablist">
         <li style="display:block;">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td class="nlink">[频道11]</td>
+    <td class="nlink">[频道31]</td>
+  </tr>
+</table>
+        </li>
+        <li style="display:none;"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="nlink">[频道32]</td>
+  </tr>
+</table>
+       
+        </li>
+       <li style="display:none;"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="nlink">[频道14]</td>
   </tr>
 </table>
         </li>
@@ -221,13 +242,15 @@ document.write(str);
     </div>
        </div>
 
-       <div class="fr" style="width:420px; margin:0 10px 0px 18px">
+       <div class="fr" style="width:450px; margin:0 10px 0px 18px">
          <div class="mod">
       <div class="tt">
-       <ul id="tabmenu2" class="tabmenu">
+       <ul id="tabmenu1" class="tabmenu">
          <li class="hover"><span>[标题22]</span></li>
-         <li class="tabmore"><span><a href="">[更多按钮22]</a></span></li>
        </ul>
+       <div id="tabmore1" class="tabmore">
+        <span class="more" style="display:block;">[更多按钮22]</span>
+        </div>
       </div>
       <div class="con">
        <ul id="tablist2" class="tablist">
@@ -256,6 +279,8 @@ document.write(str);
     </div>
   </div>
   
+  <div class="flower"></div>
+  
 
     
    <!--foot部分开始-->
@@ -274,4 +299,23 @@ document.write(str);
     </div>
 
 </body>
+
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".focus").sudyfocus({
+			p:21,
+			zWidth:1000,
+			zHeight:342,
+			title:false,
+			href: true,
+			response: true,
+			navigation:false,
+			pagination:true
+	});
+
+	$("#focus").sudyfocus();
+
+});
+</script>
 </html>

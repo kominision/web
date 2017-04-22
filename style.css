@@ -159,18 +159,21 @@ filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity: 0.95; z-
 
 .login{ width:185px;}
 /* ÐÂÎÅÇÐ»» */
-.mod {float:left;width:420px;}
+.mod {float:left;width:450px;}
 .tt { width:100%; height:30px; margin-bottom:17px; border-bottom:1px solid #538dd5;}
- .tabmenu { float:left;width:100%;background: #538dd5; }
+ .tabmenu { float:left;}
  .tabmenu li { float:left; height:30px;}
- .tabmenu li span { color:#fff;display:inline-block; height:28px; line-height:28px;color:#333; cursor:default; vertical-align:top; font-size:15px; text-align:center; padding:0 17px;font-family:"Microsoft YaHei"}
- .tabmenu li.hover span { background:#538dd5; color:#fff; text-align:center; font-size: 15px;font-family: "microsoft yahei"; height:28px;}
- .tabmore span,.mc .tablist li { display:none;}
-.tabmenu .tabmore { display:inline-block; float:right; margin-right:10px;color: #fff;}
-.tabmore a { line-height:26px; height:26px;color: #fff;}
+ .tabmenu li span { display:inline-block; height:28px; line-height:28px;color:#333; cursor:default; vertical-align:top; font-size:14px; text-align:center; padding:0 17px;font-family:"Microsoft YaHei"}
+ .tabmenu li.hover span { background:url(images/xhbj.png) no-repeat; color:#fff; text-align:center; font-size: 14px;font-family: "microsoft yahei"; height:28px;}
 
+#tabmenu2 .tabmore{float: right;}
+
+ .tabmore span,.mc .tablist li { display:none;}
+ .tabmore { display:inline-block; float:right; margin-right:10px;font-size: 14px;}
+.tabmore a { line-height:26px; height:26px}
 .more a { color:#56c065; font-size:14px;font-family:"Microsoft YaHei"; height:28px;line-height:28px;}
 .more a:hover{color:#56c065;text-decoration:none}
+
 .nlink { line-height:30px;padding-left:36px; background:url(images/rightarrow3.png) no-repeat 9px 9px; color:#333;font-size:14px;font-family:"Microsoft YaHei";}
 .nlink a{color:#333;font-size:14px;font-family:"Microsoft YaHei";}
 .nlink a:hover { color:#0078BF;}
