@@ -16,7 +16,7 @@ input,textarea,select{font-size:12px;font-family:'Microsoft Yahei', Verdana, Gen
 legend{color:#000}
 
 /**body**/
-body {background:#e5f1ff;font-size:12px; font-family: "SimSun"; 
+body {background:#e5f1ff;font-size:42px; font-family: "SimSun"; 
     margin:auto; }
 
 /**clearfix**/
