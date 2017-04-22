@@ -136,6 +136,7 @@ h2.atitle1 { width:960px; margin:0 auto; line-height:20px;text-align:center;colo
 	width: 140px;
 	overflow: hidden;
 	text-overflow:ellipsis; line-height:38px;
+    letter-spacing: 1px;
 }
 .nav li ul li a {font-weight: normal;}
 
@@ -147,8 +148,8 @@ h2.atitle1 { width:960px; margin:0 auto; line-height:20px;text-align:center;colo
 filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity: 0.95; z-index:1000}
 .nav li .hover {background: #50b1ed;}
 .nav .hover ul {background: #88CDF8;}
-.nav li ul li {float: none;width: 100%;line-height: 18px;display: block;}
-.nav li ul li a {font-size: 12px;width: 100%;padding: 3px 0;text-align:center;line-height: 18px;}
+.nav li ul li {float: none;width: 100%;line-height: 24px;display: block;}
+.nav li ul li a {font-size: 14px;width: 100%;padding: 3px 0;text-align:center;line-height: 24px;font-weight: bold;}
 .nav li ul li a:hover {color: #fff;background: none;}
 .focus{ height:300px;}
 .line{height: 2px;}
