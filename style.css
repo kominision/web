@@ -40,10 +40,10 @@ a:hover { color:#0078BF;}
 .wrapper .inner { width:1000px; margin:0 auto;}
 
 
-.entry { line-height:1.5; font-size:10.5pt; color:#595757; font-family:"SimSun"}
-.entry a{ line-height:1.5; font-size:10.5pt; color:#595757;  text-decoration:none;}
+.entry { line-height:20px; font-size:14px; color:#595757; font-family:"SimSun"}
+.entry a{ line-height:20px; font-size:14px; color:#595757;  text-decoration:none;}
 .entry a:hover { color:#0078BF;}
-.entry .llink { line-height:28px; padding-left:22px; background:url(images/li.png) no-repeat 7px 11px; border-bottom:1px dashed #ccc;}
+.entry .llink { line-height:30px; padding-left:22px; background:url(images/li.png) no-repeat 7px 11px; border-bottom:1px dashed #ccc;}
 .entry .llink a{ color:#454545; text-decoration:none;}
 .entry .llink a:hover {color:#0078BF;}
 .entry p { line-height:25px; text-indent:2em;}
@@ -99,8 +99,8 @@ h1.atitle { width:960px; margin:0 auto; line-height:60px;text-align:center;color
 h2.atitle1 { width:960px; margin:0 auto; line-height:20px;text-align:center;color: #0078bf;font-size: 14px;font-weight: bold;;font-family: "SimSun";clear: both;}
 .postmeta { width:960px;  margin:0 auto;  color:#666; text-align:center;  font-size:12px;}
 .postmeta span { display:inline-block; margin:0 10px; line-height:60px;}
-.infobox { width:820px; min-height:400px; _height:400px; margin:0 auto; padding-bottom:10px; }
-.infobox .entry img { max-width:800px; _width:expression(this.width>800?"800px":this.width+"px");}
+.infobox { width:1000px; min-height:400px; _height:400px; margin:0 auto; padding-bottom:10px; }
+.infobox .entry img { max-width:1000px; _width:expression(this.width>800?"800px":this.width+"px");}
 
 /**footer**/
 #foot{ height:76px; background-color: RGB(0,121,192); border-top:3px solid RGB(0,121,222);}
@@ -184,10 +184,12 @@ filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity: 0.95; z-
 
 .tp{ width:1000px;  margin:0 auto; padding:0px 0px;}
 .tp1{ width:1000px;  margin:0 auto; padding-top:0px; }
-.mlbanner { width:1000px;background:url(images/mlbanner1.jpg) no-repeat;height:174px;}
+.mlbanner { width:1000px;background:url(images/xxg.jpg) no-repeat;height:180px;}
 .listmainbg1{background: url(images/listbg.gif) no-repeat left top;}
-.wzlb a{text-decoration: none;color:#595757;line-height: 1.5em; font-size:13px;}
-.wzlb a:hover{color:#0078BF; text-decoration:none}
+.wzlb {text-decoration: none;color:#595757;line-height: 30px; font-size:14px;margin-bottom: 3px;}
+.wzlb a{text-decoration: none;color:#595757;line-height: 30px; font-size:14px;margin-bottom: 3px;}
+.wzlb a:hover{color:#0078BF; text-decoration:none;}
+
 .STYLE2 {color: #666; font-size:12px; line-height:20px;}
 .chan_pic_td_35{ padding-right:10px;}
 .chan_tit_td_35 a{ color:#0078BF; font-size:14px; font-weight:bold; line-height:24px;}
@@ -195,7 +197,7 @@ filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity: 0.95; z-
 .chan_con_td_35 a{ line-height:26px; text-indent:2em;}
 .chan_con_td_35{ line-height:26px; text-indent:2em;}
 .ll{text-align:right; float:right; margin-bottom:10px}
-.biaoti1{color: #0078bf;font-family: "SimSun";font-size: 14px;font-weight: bold;}
+.biaoti1{color: #0078bf;font-family: "SimSun";font-size: 14px;font-weight: bold; padding-left: 10px;}
 #newslist {padding-top: 8px;padding-bottom: 8px;width: 100%;font-size: 10.5pt;line-height: 1.5em; color:#595757}
 .llink a{font-size: 9pt;text-decoration: none;color:#FFFFFF;font-weight: bold;}
 .llink a:hover{font-size: 9pt;text-decoration: none;color:#595757;font-weight: bold;}
