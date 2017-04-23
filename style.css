@@ -16,7 +16,7 @@ input,textarea,select{font-size:12px;font-family:'Microsoft Yahei', Verdana, Gen
 legend{color:#000}
 
 /**body**/
-body {background-image:url(images/bg.jpg);background-repeat:repeat-x; font-size:12px; font-family: "SimSun"; 
+body {background-image:url(images/mainbg2.gif);background-repeat:repeat-x; font-size:12px; font-family: "SimSun"; 
     margin:auto; }
 
 /**clearfix**/
@@ -105,8 +105,8 @@ h2.atitle1 { width:960px; margin:0 auto; line-height:20px;text-align:center;colo
 /**footer**/
 #foot{ height:76px; background-color: RGB(0,121,192); border-top:3px solid RGB(0,121,222);}
 #footer{ height:79px; width:1000px; margin:0 auto;}
-.copyright {height:20px; line-height:20px;font-size:14px; color:#333;font-family:"Microsoft YaHei";text-align: center;margin-top: 10px; }
-.copyright a{font-size:12px; color:#333;font-family:"Microsoft YaHei";}
+.copyright {height:20px; line-height:20px;font-size:14px; color:#fff;font-family:"Microsoft YaHei";text-align: center;margin-top: 10px; }
+.copyright a{font-size:12px; color:#fff;font-family:"Microsoft YaHei";}
 .copyright a:hover{color:#0078BF; text-decoration:none}
 #footer .copy{font-family: Arial, Helvetica, sans-serif,"Microsoft YaHei";font-size: 14px;}
 
@@ -133,10 +133,14 @@ h2.atitle1 { width:960px; margin:0 auto; line-height:20px;text-align:center;colo
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
-	width: 140px;
+	width: 142px;
 	overflow: hidden;
 	text-overflow:ellipsis; line-height:38px;
     letter-spacing: 1px;
+}
+
+.nav .lastnav a{
+    width: 148px;
 }
 .nav li ul li a {font-weight: normal;}
 
@@ -155,7 +159,7 @@ filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity: 0.95; z-
 .line{height: 2px;}
 .banner{margin:0  auto;}
 #maincon{width:1000px;margin: 10px auto;}
-.flower{background:url(images/huawen.gif) no-repeat;height:75px; width:1000px; margin:auto;}
+.flower{background:url(images/huawen.png) no-repeat;height:75px; width:1000px; margin:auto;}
 
 .login{ width:185px;}
 /* ÐÂÎÅÇÐ»» */
